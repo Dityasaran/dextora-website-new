@@ -1,0 +1,33 @@
+{
+  "name": "vox-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.4.0",
+    "@google/genai": "^1.42.0",
+    "@google/generative-ai": "^0.24.1",
+    "@remotion/cli": "^4.0.424",
+    "@remotion/player": "^4.0.424",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.34.2",
+    "google-auth-library": "^10.5.0",
+    "lucide-react": "^0.575.0",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "^4.0.424",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5"
+  }
+}
